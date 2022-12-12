@@ -1,0 +1,7 @@
+.cards__website {
+    grid-row: 1;
+    grid-column: 2;
+    margin: 0;
+    padding: 0;
+    align-self: end;
+}

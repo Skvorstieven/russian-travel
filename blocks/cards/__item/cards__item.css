@@ -1,0 +1,10 @@
+.cards__item {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    row-gap: 48px;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px;
+    grid-template-columns: minmax(1fr, 460px) minmax(1fr, 484px);
+}

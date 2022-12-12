@@ -1,14 +1,12 @@
-.header {
+.footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    margin: 0 auto 24px;
     max-width: 1184px;
-    margin: 28px auto 56px;
-    padding: 0;
 }

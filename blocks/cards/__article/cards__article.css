@@ -1,0 +1,4 @@
+.cards__article {
+    grid-column: 2;
+    grid-row: 2;
+}
