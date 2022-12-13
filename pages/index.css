@@ -9,7 +9,8 @@
 
 @import url(../blocks/lang-switch/lang-switch.css);
 @import url(../blocks/lang-switch/__item/lang-switch__item.css);
-@import url(../blocks/lang-switch/__item/_current/lang-switch__item_current.css);
+@import url(../blocks/lang-switch/__link/lang-switch__link.css);
+@import url(../blocks/lang-switch/__link/_current/lang-switch__link_current.css);
 
 @import url(../blocks/content/content.css);
 
@@ -40,7 +41,7 @@
 @import url(../blocks/cards/__url-heading/cards__url-heading.css);
 @import url(../blocks/cards/__link/cards__link.css);
 @import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__article/cards__article.css);
+@import url(../blocks/cards/__text-container/cards__text-container.css);
 @import url(../blocks/cards/__paragraph/cards__paragraph.css);
 
 @import url(../blocks/cover/cover.css);

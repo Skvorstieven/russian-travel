@@ -1,6 +1,10 @@
 .lang-switch__item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+    opacity: 1;
+    -webkit-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+
+.lang-switch__item:hover {
+opacity: 0.8;
 }
