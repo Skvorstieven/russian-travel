@@ -7,6 +7,5 @@
     .cards__text-container {
         grid-row: 4;
         grid-column: 1;
-        max-width: calc(100vw - 32px);
     }
 }

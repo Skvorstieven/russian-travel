@@ -1,8 +1,11 @@
+/*Подключегие вендорных CSS*/
 @import url(../vendor/normalize.css);
 @import url(../vendor/Font-Inter/inter.css);
 
+/*Основной стиль страницы*/
 @import url(../blocks/page/page.css);
 
+/*Стили блока HEADER*/
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/logo/logo.css);
@@ -12,14 +15,17 @@
 @import url(../blocks/lang-switch/__link/lang-switch__link.css);
 @import url(../blocks/lang-switch/__link/_current/lang-switch__link_current.css);
 
+/*Стили блока CONTENT*/
 @import url(../blocks/content/content.css);
 
+/*Стили блока LEAD*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__bottom-text/lead__bottom-text.css);
 
+/*Стили блока INTRO*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__text-container/intro__text-container.css);
 @import url(../blocks/intro/__title/intro__title.css);
@@ -28,10 +34,12 @@
 @import url(../blocks/intro/__numbers-item/intro__numbers-item.css);
 @import url(../blocks/intro/__numbers-item/_bold/intro__numbers-item_bold.css);
 
+/*Стили блока PHOTO-GRID*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
+/*Стили блока PLACES*/
 @import url(../blocks/places/places.css);
 
 @import url(../blocks/cards/cards.css);
@@ -44,6 +52,7 @@
 @import url(../blocks/cards/__text-container/cards__text-container.css);
 @import url(../blocks/cards/__paragraph/cards__paragraph.css);
 
+/*Стили блока COVER*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/___text-container/cover__text-container.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -51,6 +60,7 @@
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__background/cover__background.css);
 
+/*Стили блока FOOTER*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);

@@ -1,7 +1,12 @@
 .cover__text-container {
-    grid-row: 1;
-    grid-column: 1;
-    display: grid;
-    justify-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    padding: 0;
 }
 
