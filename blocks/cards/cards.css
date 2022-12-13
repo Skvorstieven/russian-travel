@@ -11,3 +11,23 @@
             flex-direction: column;
     gap: 80px;
 }
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .cards {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .cards {
+        max-width: calc(100% - 48px);
+        gap: 73px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cards {
+        max-width: 100%;
+        gap: 50px;
+    }
+}
