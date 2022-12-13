@@ -1,11 +1,9 @@
 .cards__text-container {
-    grid-column: 2;
-    grid-row: 2;
+    grid-area: text-container;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
     .cards__text-container {
-        grid-row: 4;
-        grid-column: 1;
+        width: calc(100vw - 32px);
     }
 }

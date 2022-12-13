@@ -1,11 +1,4 @@
 .cards__image {
     max-width: 100%;
-    grid-column: 1;
-    grid-row: 2;
-}
-
-@media screen and (max-width:425px) {
-    .cards__image {
-        grid-row: 3;
-    }
+    grid-area: image;
 }
