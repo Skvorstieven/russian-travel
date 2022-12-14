@@ -4,6 +4,7 @@
 * Описание
 * Технологии
 * Git-Hub Pages
+* TODO
 ### **Описание**
 
 Проект веб-страницы о путешествиях по России.
@@ -16,3 +17,6 @@
 
 * [Ссылка на страницу Git-Hub Pages](https://skvorstieven.github.io/russian-travel/ "Russian Travel")
 
+### **TODO**
+
+Создать английскую версию страницы.

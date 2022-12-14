@@ -3,10 +3,10 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-line-pack: end;
-        align-content: flex-end;
+    align-content: flex-end;
     margin: 0 auto 24px;
     max-width: 1184px;
 }
@@ -28,8 +28,8 @@
         max-width: 186px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         margin: 0 0 24px 16px;
     }
 }

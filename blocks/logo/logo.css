@@ -2,7 +2,7 @@
     max-width: 176px;
     max-height: 52px;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 424px) {

@@ -7,8 +7,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 80px;
 }
 
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 767px) {
     .cards {
-        max-width: 100%;
+        max-width: 100vw;
         gap: 50px;
     }
 }
