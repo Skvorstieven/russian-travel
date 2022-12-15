@@ -1,12 +1,11 @@
-.cards__website {
-    grid-area: website;
+.cards__paragraphs {
+    grid-area: paragraphs;
     margin: 0;
     padding: 0;
-    align-self: end;
 }
 
 @media screen and (max-width: 767px) {
-    .cards__website {
+    .cards__paragraphs {
         width: calc(100% - 32px);
     }
 }

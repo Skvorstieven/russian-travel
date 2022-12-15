@@ -1,9 +1,0 @@
-.cards__text-container {
-    grid-area: text-container;
-}
-
-@media screen and (max-width: 767px) {
-    .cards__text-container {
-        width: calc(100% - 32px);
-    }
-}

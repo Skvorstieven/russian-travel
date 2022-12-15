@@ -3,6 +3,8 @@
     -webkit-transition: all ease-in-out 1s;
     -o-transition: all ease-in-out 1s;
     transition: all ease-in-out 1s;
+    margin: 0;
+    padding: 0;
 }
 
 .lang-switch__item:hover {
