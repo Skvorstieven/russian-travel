@@ -9,7 +9,6 @@
     color: #fff;
     margin: 0;
     padding: 0;
-    opacity: 1;
     -webkit-transition: all ease-in-out 1s;
     -o-transition: all ease-in-out 1s;
     transition: all ease-in-out 1s;
@@ -21,8 +20,13 @@
 
 @media screen and (max-width: 767px) {
     .footer__link {
+        margin-bottom: 32px;
         font-size: 24px;
         line-height: 24px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 0;
     }
 }
 

@@ -35,7 +35,7 @@
     padding: 0;
 }
 
-.cover__link.cover__link:hover::before {
+.cover__link:hover::before {
     opacity: 0.8;
 }
 
